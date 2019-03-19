@@ -3,15 +3,15 @@
 %endif
 
 Name:          ocaml-ocamlbuild
-Version:       0.9.3
-Release:       6%{?dist}
+Version:       0.12.0
+Release:       1%{?dist}
 
 Summary:       Build tool for OCaml libraries and programs
 
 License:       LGPLv2+ with exceptions
 
 URL:           https://github.com/ocaml/ocamlbuild
-Source0:       https://repo.citrite.net:443/ctx-local-contrib/xs-opam/%{name}-%{version}.tar.gz
+Source0:       https://repo.citrite.net:443/ctx-local-contrib/xs-opam/ocamlbuild-%{version}.tar.gz
 
 BuildRequires: ocaml >= 4.04.0
 
@@ -106,6 +106,9 @@ rm $RPM_BUILD_ROOT%{_libdir}/ocaml/ocamlbuild/META
 
 
 %changelog
+* Fri Jul 06 2018 Christian Lindig <christian.lindig@citrix.com> - 0.12.0-1
+- Update to version 0.12.0 (same as in xs-opam-{src,repo}.spec)
+
 * Sat Feb 11 2017 Fedora Release Engineering <releng@fedoraproject.org> - 0.9.3-6
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_26_Mass_Rebuild
 

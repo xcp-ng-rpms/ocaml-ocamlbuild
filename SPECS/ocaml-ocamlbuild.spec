@@ -11,7 +11,11 @@ Summary:       Build tool for OCaml libraries and programs
 License:       LGPLv2+ with exceptions
 
 URL:           https://github.com/ocaml/ocamlbuild
-Source0:       https://repo.citrite.net:443/ctx-local-contrib/xs-opam/ocamlbuild-%{version}.tar.gz
+
+Source0: https://repo.citrite.net:443/ctx-local-contrib/xs-opam/ocamlbuild-0.12.0.tar.gz
+
+
+
 
 BuildRequires: ocaml >= 4.04.0
 
